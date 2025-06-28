@@ -96,7 +96,10 @@ poetry.lock
 
 # Audio/Video/Temp
 *.mp3
+# Permitir videos mp4 solo en la carpeta videos/
 *.mp4
+!videos/sujeto/*.mp4
+
 temp.*
 
 # VSCode
